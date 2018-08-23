@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "307102918542",
+    "firebase_url": "https://messaging-f3fdb.firebaseio.com",
+    "project_id": "messaging-f3fdb",
+    "storage_bucket": "messaging-f3fdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307102918542:android:68ecacc382d2eb50",
+        "android_client_info": {
+          "package_name": "com.example.simen.newmessages"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307102918542-1udvg5h7qd42t0gmkf1j2t7ktdo7t8k9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIVGEn935sp4W35hm9729e7wgb6M9k994"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
