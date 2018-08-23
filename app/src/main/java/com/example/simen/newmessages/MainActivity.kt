@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
             val user =editUser.text.toString()
             val password=editPassword.text.toString()
             Log.d("MainActivity","This is your password "+ password)
+            //Firebase first time.
         }
         txtLogin.setOnClickListener{
             Log.d("MainActivity","Show login activity")
