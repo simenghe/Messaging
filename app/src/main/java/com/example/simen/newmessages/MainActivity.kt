@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -19,6 +20,13 @@ class MainActivity : AppCompatActivity() {
             val password=editPassword.text.toString()
             Log.d("MainActivity","This is your password "+ password)
             //Firebase first time.
+
+            FirebaseAuth.getInstance().createUserWithEmailAndPassword(email,password)
+                    .addOnCompleteListener{
+                        if(!it.isSuccessful) return@addOnCompleteListener
+                        //else if successfull
+                        Log.d("Main","Success:${it.result.user.uid}")
+                    }
         }
         txtLogin.setOnClickListener{
             Log.d("MainActivity","Show login activity")
