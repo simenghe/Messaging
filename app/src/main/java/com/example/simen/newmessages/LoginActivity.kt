@@ -13,6 +13,9 @@ class LoginActivity: AppCompatActivity(){
         btnLogin.setOnClickListener{
             performLogin()
         }
+        txtRegister.setOnClickListener(){
+            finish()
+        }
     }
 
     private fun performLogin() {
@@ -21,4 +24,5 @@ class LoginActivity: AppCompatActivity(){
         Log.d("Login","Attempt login with email/pass $email/****")
         FirebaseAuth.getInstance().signInWithEmailAndPassword(email,password)
     }
+
 }
