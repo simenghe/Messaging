@@ -3,9 +3,10 @@
     <string name="editUser">Username</string>
     <string name="editEmail">Email</string>
     <string name="editPassword">Password</string>
-    <string name="btnLogin">LOG IN</string>
     <string name="edit_login_user">Username</string>
     <string name="edit_login_password">Password</string>
     <string name="btnLogin">LOG IN</string>
     <string name="txtRegister">Back to registration</string>
+    <string name="btnRegister">REGISTER</string>
+    <string name="txtLogin">Want to login?</string>
 </resources>
