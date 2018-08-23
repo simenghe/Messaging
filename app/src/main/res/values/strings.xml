@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NewMessages</string>
+    <string name="editUser">Username</string>
+    <string name="editEmail">Email</string>
+    <string name="editPassword">Password</string>
+</resources>
