@@ -17,6 +17,7 @@ class LoginActivity: AppCompatActivity(){
         txtRegister.setOnClickListener(){
             finish()
         }
+
     }
 
     private fun performLogin() {
